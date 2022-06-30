@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="GS SHOP의 라이브커머스 제작서비스" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mullaelive.com" />
+    <meta property="og:title" content="문래라이브" />
+    <meta property="og:image" content="https://mullaelive.com/logo.png" />
+    <meta
+      property="og:description"
+      content="GS SHOP의 라이브커머스 제작서비스"
+    />
+    <meta property="og:site_name" content="문래라이브" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta name="twitter:card" content="GS SHOP의 라이브커머스 제작서비스" />
+    <meta name="twitter:title" content="문래라이브" />
+    <meta
+      name="twitter:description"
+      content="GS SHOP의 라이브커머스 제작서비스"
+    />
+    <meta name="twitter:image" content="https://mullaelive.com/logo.png" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script async="defer" src="https://youtube.com/iframe_api"></script>
+    <script>
+      var players;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player("player", {
+          // width: "100%",
+          width: 338,
+          height: 620,
+          videoId: "1DcKLBMandU",
+          playerVars: { autoplay: 1, playsinline: 1, controls: 0 },
+          events: {
+            onReady: onPlayerReady,
+          },
+        });
+      }
+      function onPlayerReady(event) {
+        event.target.mute();
+        event.target.playVideo();
+      }
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5R74W4P");
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Channel Plugin Scripts -->
+    <script>
+      (function () {
+        var w = window;
+        if (w.ChannelIO) {
+          return (window.console.error || window.console.log || function () {})(
+            "ChannelIO script included twice."
+          );
+        }
+        var ch = function () {
+          ch.c(arguments);
+        };
+        ch.q = [];
+        ch.c = function (args) {
+          ch.q.push(args);
+        };
+        w.ChannelIO = ch;
+        function l() {
+          if (w.ChannelIOInitialized) {
+            return;
+          }
+          w.ChannelIOInitialized = true;
+          var s = document.createElement("script");
+          s.type = "text/javascript";
+          s.async = true;
+          s.src = "https://cdn.channel.io/plugin/ch-plugin-web.js";
+          s.charset = "UTF-8";
+          var x = document.getElementsByTagName("script")[0];
+          x.parentNode.insertBefore(s, x);
+        }
+        if (document.readyState === "complete") {
+          l();
+        } else if (window.attachEvent) {
+          window.attachEvent("onload", l);
+        } else {
+          window.addEventListener("DOMContentLoaded", l, false);
+          window.addEventListener("load", l, false);
+        }
+      })();
+      ChannelIO("boot", {
+        pluginKey: "811c9954-15cd-4747-bfbd-2dc3e9c1e0e2",
+      });
+    </script>
+    <title>문래라이브 스튜디오</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

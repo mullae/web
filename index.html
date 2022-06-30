@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+  </head>
+
+  <body>
+    <iframe
+      src="https://dist.bambuser.net/broadcaster/
+    ?application_id=<YOUR_APPLICATION_ID
+    &ticket=<SIGNED_TICKET>"
+      style="border: none"
+      allowfullscreen
+      allow="microphone; camera"
+    >
+    </iframe>
+  </body>
+
+  <script>
+    window.addEventListener(
+      "message",
+      function (event) {
+        if (event.origin !== "https://dist.bambuser.net") {
+          // Don't trust messages from other origins
+          return;
+        }
+        var broadcasterEvent = event.data.broadcasterEvent;
+        if (
+          broadcasterEvent &&
+          broadcasterEvent.name === "registeredBroadcastId"
+        ) {
+          console.log("broadcast id: ", broadcasterEvent.data);
+        }
+      },
+      false
+    );
+  </script>
+</html>
