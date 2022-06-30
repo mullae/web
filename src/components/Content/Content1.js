@@ -22,9 +22,14 @@ export const Content1 = () => {
   return (
     <>
       <div className="lg:hidden pt-4">
-        <div className="relative mt-8">
-          <div id="player" style={{ margin: "20px auto" }}>
+        <div
+          className="relative mt-4"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
+          <div id="player">
             <iframe
+              width="338"
+              height="620"
               src="https://www.youtube.com/embed/1DcKLBMandU?autoplay=1&mute=1&loop=1&controls=0"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
