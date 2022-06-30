@@ -3,7 +3,6 @@ import { Button } from "antd";
 import { Link } from "react-router-dom";
 import animateScrollTo from "animated-scroll-to";
 import { ClockCircleOutlined } from "@ant-design/icons";
-import raw from "assets/mp4/mullaelive.mp4";
 import titleLogo from "assets/images/mullaelive.png";
 import MainBackground from "assets/images/main-background.jpg";
 import ReactGA from "react-ga";
@@ -24,23 +23,8 @@ export const Content1 = () => {
     <>
       <div className="lg:hidden pt-4">
         <div className="relative mt-8">
-          {/* <video
-            loop={true}
-            autoPlay={true}
-            muted
-            src={raw}
-            type="video/mp4"
-            playsInline
-            style={{
-              borderRadius: 12,
-              width: "60%",
-              margin: "0 auto",
-            }}
-          /> */}
           <div id="player" style={{ margin: "20px auto" }}>
             <iframe
-              // width="338"
-              // height="600"
               src="https://www.youtube.com/embed/1DcKLBMandU?autoplay=1&mute=1&loop=1&controls=0"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -210,14 +194,6 @@ export const Content1 = () => {
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 ></iframe>
-                {/* <video
-                  className="main-video"
-                  loop={true}
-                  autoPlay={true}
-                  muted
-                  src={raw}
-                  type="video/mp4"
-                /> */}
               </div>
             </div>
           </div>

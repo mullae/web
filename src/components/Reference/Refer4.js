@@ -14,7 +14,7 @@ export const Refer4 = () => {
             <Button
               style={{ width: 300, height: 100 }}
               className="font-bold"
-              href="/files/[GS리테일] 문래라이브 서비스소개_22.06.pdf"
+              href="/static/[GS리테일] 문래라이브 서비스소개_22.06.pdf"
               target="_blank"
               onClick={() => {
                 ReactGA.event({
@@ -38,7 +38,7 @@ export const Refer4 = () => {
           <Button
             style={{ width: 300, height: 100 }}
             className="font-bold"
-            href="/files/[GS리테일] 문래라이브 서비스소개_22.06.pdf"
+            href="/static/[GS리테일] 문래라이브 서비스소개_22.06.pdf"
             target="_blank"
             onClick={() => {
               ReactGA.event({

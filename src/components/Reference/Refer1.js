@@ -6,41 +6,41 @@ import axios from "axios";
 import { Header } from "../Nav";
 import { Spin, Space } from "antd";
 
-// const getReferenceItems = () => {
-//   return new Promise((resolve) => {
-//     axios
-//       .get(
-//         'https://api.notion.com/v1/blocks/675199c6-44f6-4e67-acb0-0013414807c6/children',
-//         {
-//           headers: {
-//             Authorization:
-//               'Bearer secret_Gq59FAz6n6C4f7Xh1bLjPqWnoZKuV8uZ4cz9hVPwa22',
-//             'Notion-Version': '2021-08-16',
-//           },
-//         }
-//       )
-//       .then((res) => {
-//         resolve(res.data.results);
-//       })
-//       .catch((err) => {
-//         console.log(err);
-//       });
-//   });
-// };
-
-const getReferenceItems = async () => {
-  // const items = await getNotionItems();
+const getReferenceItems = () => {
   return new Promise((resolve) => {
     axios
-      .get("/api/reference")
+      .get(
+        "https://mullaelive-cors.herokuapp.com/https://api.notion.com/v1/blocks/675199c6-44f6-4e67-acb0-0013414807c6/children",
+        {
+          headers: {
+            Authorization:
+              "Bearer secret_Gq59FAz6n6C4f7Xh1bLjPqWnoZKuV8uZ4cz9hVPwa22",
+            "Notion-Version": "2021-08-16",
+          },
+        }
+      )
       .then((res) => {
-        resolve(res.data);
+        resolve(res.data.results);
       })
       .catch((err) => {
         console.log(err);
       });
   });
 };
+
+// const getReferenceItems = async () => {
+//   // const items = await getNotionItems();
+//   return new Promise((resolve) => {
+//     axios
+//       .get("/api/reference")
+//       .then((res) => {
+//         resolve(res.data);
+//       })
+//       .catch((err) => {
+//         console.log(err);
+//       });
+//   });
+// };
 
 const convertItem = (items) => {
   if (items.length === 0) {
