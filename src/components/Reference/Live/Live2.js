@@ -9,7 +9,11 @@ export const Live2 = () => {
       <div className="lg:hidden">
         <div className="room-background-wrap" style={{ height: 900 }}>
           <div>
-            <img src={LiveLogo} alt="e" style={{ margin: "0 auto" }} />
+            <img
+              src={LiveLogo}
+              alt="e"
+              style={{ margin: "0 auto", width: "100%" }}
+            />
           </div>
           <div className="text-lg pl-8 text-left font-bold">
             제품 CF 활용한 방송 연출
