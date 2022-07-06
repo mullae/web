@@ -23,14 +23,14 @@ export const Content2 = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-4 mb-16 px-16">
+        <div className="grid grid-cols-4 gap-4 mb-16 mt-4 px-8">
           {[1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19].map(
             (item) => (
               <div key={`m-key-${item}`}>
                 <img
                   alt={item}
                   src={require(`assets/images/logo-${item}.jpg`).default}
-                  className="mr-8 pt-4"
+                  className="mr-8"
                   style={{ width: "100%", display: "inline" }}
                 />
               </div>
@@ -60,9 +60,9 @@ export const Content2 = () => {
                 <img
                   alt={item}
                   src={require(`assets/images/logo-${item}.jpg`).default}
-                  className="mr-8 pt-4"
+                  className="mr-8"
                   style={{
-                    maxWidth: 200,
+                    maxWidth: 180,
                     display: "inline",
                   }}
                 />
