@@ -23,19 +23,19 @@ export const Content2 = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-4 mb-16 px-8">
-          {[
-            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
-          ].map((_, index) => (
-            <div key={`m-key-${index + 1}`}>
-              <img
-                alt={index}
-                src={require(`assets/images/logo-${index + 1}.jpg`).default}
-                className="mr-8 pt-4"
-                style={{ width: "100%", display: "inline" }}
-              />
-            </div>
-          ))}
+        <div className="grid grid-cols-4 gap-4 mb-16 px-16">
+          {[1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19].map(
+            (item) => (
+              <div key={`m-key-${item}`}>
+                <img
+                  alt={item}
+                  src={require(`assets/images/logo-${item}.jpg`).default}
+                  className="mr-8 pt-4"
+                  style={{ width: "100%", display: "inline" }}
+                />
+              </div>
+            )
+          )}
         </div>
       </div>
 
@@ -54,21 +54,21 @@ export const Content2 = () => {
           />
         </div>
         <div className="grid grid-cols-4 mb-32">
-          {[
-            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
-          ].map((_, index) => (
-            <div key={`key-${index + 1}`} style={{ margin: "0 auto" }}>
-              <img
-                alt={index}
-                src={require(`assets/images/logo-${index + 1}.jpg`).default}
-                className="mr-8 pt-4"
-                style={{
-                  maxWidth: 200,
-                  display: "inline",
-                }}
-              />
-            </div>
-          ))}
+          {[1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19].map(
+            (item) => (
+              <div key={`key-${item}`} style={{ margin: "0 auto" }}>
+                <img
+                  alt={item}
+                  src={require(`assets/images/logo-${item}.jpg`).default}
+                  className="mr-8 pt-4"
+                  style={{
+                    maxWidth: 200,
+                    display: "inline",
+                  }}
+                />
+              </div>
+            )
+          )}
         </div>
       </div>
     </>

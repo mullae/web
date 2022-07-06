@@ -28,20 +28,6 @@ const getReferenceItems = () => {
   });
 };
 
-// const getReferenceItems = async () => {
-//   // const items = await getNotionItems();
-//   return new Promise((resolve) => {
-//     axios
-//       .get("/api/reference")
-//       .then((res) => {
-//         resolve(res.data);
-//       })
-//       .catch((err) => {
-//         console.log(err);
-//       });
-//   });
-// };
-
 const convertItem = (items) => {
   if (items.length === 0) {
     return [];
