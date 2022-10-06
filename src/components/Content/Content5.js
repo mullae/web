@@ -11,7 +11,7 @@ export const Content5 = () => {
             <Button
               style={{ width: 300, height: 100 }}
               className="font-bold"
-              href="/mullaelive_suggestion_2206.pdf"
+              href="/mullaelive_suggestion_2210.pdf"
               target="_blank"
               onClick={() => {
                 ReactGA.event({
@@ -35,7 +35,7 @@ export const Content5 = () => {
           <Button
             style={{ width: 300, height: 100 }}
             className="font-bold"
-            href="/mullaelive_suggestion_2206.pdf"
+            href="/mullaelive_suggestion_2210.pdf"
             target="_blank"
             onClick={() => {
               ReactGA.event({
