@@ -107,7 +107,8 @@ export const Refer1 = () => {
                         src={item.image_url}
                         style={{
                           width: 200,
-                          borderRadius: 14,
+                          height: 340,
+                          borderRadius: 10,
                           margin: "0 auto",
                         }}
                       />
@@ -154,7 +155,8 @@ export const Refer1 = () => {
                         src={item.image_url}
                         style={{
                           width: 200,
-                          borderRadius: 14,
+                          height: 360,
+                          borderRadius: 10,
                           margin: "0 auto",
                         }}
                       />

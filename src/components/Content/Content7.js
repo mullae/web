@@ -156,7 +156,7 @@ export const Content7 = () => {
             <DatePicker
               size="large"
               className="w-full"
-              placeholder="2021년 00월 00일"
+              placeholder="2022년 00월 00일"
               onChange={(_, dateString) => setDate(dateString)}
             />
 
@@ -225,7 +225,7 @@ export const Content7 = () => {
               <DatePicker
                 size="large"
                 className="w-full"
-                placeholder="2021년 00월 00일"
+                placeholder="2022년 00월 00일"
                 onChange={(_, dateString) => setDate(dateString)}
                 style={{
                   width: 300,

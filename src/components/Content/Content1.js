@@ -22,7 +22,7 @@ export const Content1 = () => {
   return (
     <>
       <div className="lg:hidden pt-4">
-        <div
+        {/* <div
           className="relative mt-4"
           style={{ display: "flex", justifyContent: "center" }}
         >
@@ -35,7 +35,7 @@ export const Content1 = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             ></iframe>
           </div>
-        </div>
+        </div> */}
         <div className="text-4xl font-extrabold text-center pt-8">
           <div>한 발 앞서가는</div>
           <div className="pt-2">라이브 커머스</div>
@@ -181,7 +181,7 @@ export const Content1 = () => {
               </div>
             </div>
           </div>
-          <div style={{ width: "50%" }} className="inline-block">
+          {/* <div style={{ width: "50%" }} className="inline-block">
             <div
               className="float-left"
               style={{ marginLeft: 180, marginBottom: 500 }}
@@ -201,7 +201,7 @@ export const Content1 = () => {
                 ></iframe>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

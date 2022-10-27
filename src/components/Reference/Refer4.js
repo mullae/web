@@ -12,9 +12,9 @@ export const Refer4 = () => {
         >
           <div className="mt-2">
             <Button
-              style={{ width: 300, height: 100 }}
+              style={{ width: 150, height: 50 }}
               className="font-bold"
-              href="/mullaelive_suggestion_2210.pdf"
+              href="/mullaelive_suggestion_2211.pdf"
               target="_blank"
               onClick={() => {
                 ReactGA.event({
@@ -24,7 +24,7 @@ export const Refer4 = () => {
                 });
               }}
             >
-              <div className="pt-8 text-3xl">제안서 다운로드</div>
+              <div style={{ paddingTop: 9 }}>제안서 다운로드</div>
             </Button>
           </div>
         </div>
@@ -38,7 +38,7 @@ export const Refer4 = () => {
           <Button
             style={{ width: 300, height: 100 }}
             className="font-bold"
-            href="/mullaelive_suggestion_2210.pdf"
+            href="/mullaelive_suggestion_2211.pdf"
             target="_blank"
             onClick={() => {
               ReactGA.event({

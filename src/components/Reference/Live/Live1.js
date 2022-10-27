@@ -1,22 +1,19 @@
 import React from "react";
-import LiveLogo from "assets/images/logo-15.jpg";
+import LiveLogo from "assets/images/refer-live-logo1.png";
 import LiveImage1 from "assets/images/live1-1.png";
 import LiveImage2 from "assets/images/live1-2.png";
+
 export const Live1 = () => {
   return (
     <>
       <div className="lg:hidden">
         <div>
-          <img
-            src={LiveLogo}
-            alt="e"
-            style={{ width: "50%", margin: "0 auto" }}
-          />
+          <img src={LiveLogo} alt="e" className="py-16 w-3/5 m-0-auto" />
         </div>
-        <div className="text-lg pl-8 text-left font-bold">
+        <div className="text-lg px-8 text-left font-bold">
           두가지 메이저 브랜드의 콜라보 (가구, 로봇청소기)​
         </div>
-        <div className="text-lg pl-8 text-left font-light">
+        <div className="text-lg px-8 text-left font-light">
           삼성 X 한샘 콜라보 라이브 | G마켓 글로벌
         </div>
         <div className="font-light text-left pt-10 p-8">
@@ -51,11 +48,11 @@ export const Live1 = () => {
                 <img
                   src={LiveLogo}
                   alt="e"
-                  className="pt-28"
+                  className="pt-36"
                   style={{ width: 220 }}
                 />
               </div>
-              <div className="pt-36">
+              <div className="pl-12 pt-36">
                 <div className="text-4xl text-left" style={{ fontSize: 36 }}>
                   두가지 메이저 브랜드의 콜라보 (가구, 로봇청소기)​
                 </div>

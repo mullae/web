@@ -164,7 +164,7 @@ export const Book = () => {
               <DatePicker
                 size="large"
                 onChange={(date, dateString) => setDate(dateString)}
-                placeholder="2021년 00월 00일"
+                placeholder="2022년 00월 00일"
                 style={{
                   width: 200,
                 }}

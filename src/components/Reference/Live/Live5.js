@@ -1,22 +1,19 @@
 import React from "react";
-import LiveLogo from "assets/images/company_31.png";
+import LiveLogo from "assets/images/refer-live-logo5.png";
 import LiveImage1 from "assets/images/live5-1.png";
 import LiveImage2 from "assets/images/live5-2.png";
+
 export const Live5 = () => {
   return (
     <>
       <div className="lg:hidden">
         <div>
-          <img
-            src={LiveLogo}
-            alt="e"
-            style={{ width: "50%", margin: "30px auto" }}
-          />
+          <img src={LiveLogo} alt="e" className="py-16 w-3/5 m-0-auto" />
         </div>
-        <div className="text-lg pl-8 text-left font-bold">
+        <div className="text-lg px-8 text-left font-bold">
           TV홈쇼핑 카메라/연출 노하우 활용​​
         </div>
-        <div className="text-lg pl-8 text-left font-light">
+        <div className="text-lg px-8 text-left font-light">
           수입과일 라이브 | G마켓 글로벌​
         </div>
         <div className="font-light text-left pt-10 p-8">

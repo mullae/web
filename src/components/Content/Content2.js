@@ -22,25 +22,17 @@ export const Content2 = () => {
             />
           </div>
         </div>
-
-        <div className="grid grid-cols-4 gap-4 mb-16 mt-4 px-8">
-          {[1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19].map(
-            (item) => (
-              <div key={`m-key-${item}`}>
-                <img
-                  alt={item}
-                  src={require(`assets/images/logo-${item}.jpg`).default}
-                  className="mr-8"
-                  style={{ width: "100%", display: "inline" }}
-                />
-              </div>
-            )
-          )}
+        <div className="px-4">
+          <img
+            src={require("assets/images/company-logos.png").default}
+            alt="company-logos"
+            className="w-full"
+          />
         </div>
       </div>
 
       <div className="flex flex-col items-center justify-center mt-24 hidden lg:flex">
-        <div className="flex flex-row mb-4">
+        <div className="flex flex-row">
           <img
             alt="divider"
             src={Divider}
@@ -53,22 +45,12 @@ export const Content2 = () => {
             style={{ height: 1, marginTop: 18 }}
           />
         </div>
-        <div className="grid grid-cols-4 mb-32">
-          {[1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19].map(
-            (item) => (
-              <div key={`key-${item}`} style={{ margin: "0 auto" }}>
-                <img
-                  alt={item}
-                  src={require(`assets/images/logo-${item}.jpg`).default}
-                  className="mr-8"
-                  style={{
-                    maxWidth: 180,
-                    display: "inline",
-                  }}
-                />
-              </div>
-            )
-          )}
+        <div className="px-48" style={{ marginTop: -40, zIndex: -1 }}>
+          <img
+            src={require("assets/images/company-logos.png").default}
+            alt="company-logos"
+            className="w-4/5 m-0-auto"
+          />
         </div>
       </div>
     </>
