@@ -1,13 +1,13 @@
 import React from "react";
 import RoomBackground from "assets/images/room-background.png";
-import RoomContent from "assets/images/room-content.png";
+import { Content5 } from "./Content5";
 import MRoomContent from "assets/images/m-room-content.png";
 import { Link } from "react-router-dom";
 
 const believeText = [
-  "모바일 스튜디오",
-  "호리존트",
   "대형 스튜디오",
+  "호리존트",
+  "모바일 스튜디오",
   "TV-Live 스튜디오",
   "크로마",
   "키친 스튜디오",
@@ -150,33 +150,33 @@ export const Content3 = () => {
           </div>
           <div className="my-12">
             <div className="underline text-xl font-bold mb-3 mt-3">
+              확실한 성과를 위한 <span className="brand-color">판매방송​</span>
+            </div>
+            <div className="font-light">
+              ​ 홈쇼핑 경험과 데이터를 기반으로 한 판매방송 기획​
+              <br />
+              상품의 핵심과 설득을 중심으로 하는 라이브 운영​
+            </div>
+          </div>
+          <div className="my-12">
+            <div className="underline text-xl font-bold mb-3 mt-3">
+              <span className="brand-color">안정적인 방송</span> 환경
+            </div>
+            <div className="font-light">
+              GS SHOP의 스튜디오에 진행되는 안정적인 방송​
+              <br />
+              대형 방송에 필요한 압도적인 안정성과 제작/송출 인프라​
+            </div>
+          </div>
+          <div className="my-12">
+            <div className="underline text-xl font-bold mb-3 mt-3">
               브랜드 아이덴티티에 걸맞는{" "}
               <span className="brand-color">퀄리티</span>
             </div>
             <div className="font-light">
-              크로마를 활용한 다양한 연출과
+              브랜드 이미지에 걸맞는 방송연출과 영상 디자인​
               <br />
-              고객의 시선을 사로잡는 콘텐츠 제작 가능
-            </div>
-          </div>
-          <div className="my-12">
-            <div className="underline text-xl font-bold mb-3 mt-3">
-              안정적인 <span className="brand-color">멀티플랫폼 송출</span> 환경
-            </div>
-            <div className="font-light">
-              네이버, 쿠팡 등 멀티플랫폼 송출을 통해
-              <br />
-              매출 향상 도모(동시송출, 자막관리 제공)
-            </div>
-          </div>
-          <div className="my-12">
-            <div className="underline text-xl font-bold mb-3 mt-3">
-              상품 특성에 맞는 영상 디자인 기획
-            </div>
-            <div className="font-light">
-              뷰티, 식품, 라이프스타일 등
-              <br />
-              국내 최고의 커머스 방송 콘텐츠 제작 역량
+              뷰티, 라이프스타일 등 상품 특성에 맞는 컨텐츠 송출​
             </div>
           </div>
         </div>
@@ -187,7 +187,7 @@ export const Content3 = () => {
               보유 스튜디오
             </div>
             <div className="flex flex-nowrap w-full overflow-x-auto overflow-y-hidden">
-              {[1, 2, 3, 4, 5, 6].map((item, index) => (
+              {[3, 2, 1, 4, 5, 6].map((item, index) => (
                 <div key={index} className="p-4">
                   <img
                     alt={index}
@@ -291,34 +291,33 @@ export const Content3 = () => {
             <div className="text-left" style={{ width: "50%" }}>
               <div className="mt-12">
                 <div className="underline text-2xl font-bold mb-6 mt-6">
-                  브랜드 아이덴티티에 걸맞는{" "}
-                  <span className="brand-color">퀄리티</span>
+                  확실한 성과를 위한{" "}
+                  <span className="brand-color">판매방송​</span>
                 </div>
                 <div className="font-light" style={{ fontSize: 16 }}>
-                  크로마를 활용한 다양한 연출과
-                  <br />
-                  고객의 시선을 사로잡는 콘텐츠 제작 가능
+                  홈쇼핑 경험과 데이터를 기반으로 한 판매방송 기획​ <br />
+                  상품의 핵심과 설득을 중심으로 하는 라이브 운영​
                 </div>
               </div>
               <div className="mt-12">
                 <div className="underline text-2xl font-bold mb-6 mt-6">
-                  안정적인 <span className="brand-color">멀티플랫폼 송출</span>{" "}
-                  환경
+                  <span className="brand-color">안정적인 방송</span> 환경
                 </div>
                 <div className="font-light" style={{ fontSize: 16 }}>
-                  네이버, 쿠팡 등 멀티플랫폼 송출을 통해
+                  GS SHOP의 스튜디오에 진행되는 안정적인 방송​
                   <br />
-                  매출 향상 도모(동시송출, 자막관리 제공)
+                  대형 방송에 필요한 압도적인 안정성과 제작/송출 인프라​
                 </div>
               </div>
               <div className="mt-12 mb-24">
                 <div className="underline text-2xl font-bold mb-6 mt-6">
-                  상품 특성에 맞는 영상 디자인 기획
+                  브랜드 아이덴티티에 걸맞는{" "}
+                  <span className="brand-color">퀄리티</span>
                 </div>
                 <div className="font-light" style={{ fontSize: 16 }}>
-                  뷰티, 식품, 라이프스타일 등
+                  브랜드 이미지에 걸맞는 방송연출과 영상 디자인​
                   <br />
-                  국내 최고의 커머스 방송 콘텐츠 제작 역량
+                  뷰티, 라이프스타일 등 상품 특성에 맞는 컨텐츠 송출​
                 </div>
               </div>
             </div>
@@ -331,7 +330,7 @@ export const Content3 = () => {
               </div>
               <div className="mt-2 block">
                 <div className="flex flex-nowrap  px-4 w-full overflow-x-auto overflow-y-hidden mb-20">
-                  {[1, 2, 3, 4, 5, 6].map((item, index) => (
+                  {[3, 2, 1, 4, 5, 6].map((item, index) => (
                     <div
                       key={index}
                       className="p-4"
@@ -380,24 +379,7 @@ export const Content3 = () => {
             </div>
           </div>
 
-          <div className="room-background-wrap">
-            <div
-              className="room-background-drop"
-              style={{
-                flex: 1,
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              <div>
-                <div className="room-title text-4xl">
-                  방송 기획부터 촬영, 송출, 사후관리까지{" "}
-                  <strong>한 번에</strong>
-                </div>
-                <img alt="room" src={RoomContent} className="room-image" />
-              </div>
-            </div>
-          </div>
+          <Content5 />
 
           <div className="px-80 mt-32">
             <div className="text-2xl font-extrabold primary-color">

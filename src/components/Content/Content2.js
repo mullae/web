@@ -31,7 +31,7 @@ export const Content2 = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center mt-24 hidden lg:flex">
+      <div className="flex flex-col items-center justify-center mt-20 hidden lg:flex">
         <div className="flex flex-row">
           <img
             alt="divider"

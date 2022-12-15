@@ -2,8 +2,6 @@ import React from "react";
 import { Button } from "antd";
 import { Link } from "react-router-dom";
 import animateScrollTo from "animated-scroll-to";
-import { ClockCircleOutlined } from "@ant-design/icons";
-import titleLogo from "assets/images/mullaelive.png";
 import MainBackground from "assets/images/main-background.jpg";
 import ReactGA from "react-ga";
 
@@ -22,20 +20,6 @@ export const Content1 = () => {
   return (
     <>
       <div className="lg:hidden pt-4">
-        {/* <div
-          className="relative mt-4"
-          style={{ display: "flex", justifyContent: "center" }}
-        >
-          <div id="player">
-            <iframe
-              width="338"
-              height="620"
-              src="https://www.youtube.com/embed/1DcKLBMandU?autoplay=1&mute=1&loop=1&controls=0"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            ></iframe>
-          </div>
-        </div> */}
         <div className="text-4xl font-extrabold text-center pt-8">
           <div>한 발 앞서가는</div>
           <div className="pt-2">라이브 커머스</div>
@@ -83,7 +67,7 @@ export const Content1 = () => {
           backgroundImage: `url(${MainBackground})`,
         }}
       >
-        <div className="flex justify-between py-6 px-72 hidden lg:flex">
+        {/* <div className="flex justify-between py-6 px-72 hidden lg:flex">
           <Link to="/">
             <img src={titleLogo} alt="logo" style={{ width: 160 }} />
           </Link>
@@ -127,42 +111,49 @@ export const Content1 = () => {
               </Button>
             </div>
           </div>
-        </div>
-        <div className="relative" style={{ minHeight: 800 }}>
+        </div> */}
+        <div className="relative" style={{ minHeight: 600 }}>
           <div style={{ width: "50%" }} className="inline-block">
-            <div className="float-right mt-72">
+            <div className="float-right mt-32">
               <div className="mb-2 text-white text-3xl">
                 <strong>
-                  GS SHOP이 직접 제작하는 라이브커머스 전문 제작 서비스
+                  GS SHOP이 서비스하는 프리미엄 라이브커머스 방송​
                 </strong>
               </div>
               <div className="text-5xl font-bold text-white leading-tight">
                 문래라이브
               </div>
               <div className="mt-6 text-white" style={{ fontSize: 20 }}>
-                <div>방송기획, 출연자 섭외, 촬영/송출까지 한 번에!</div>
                 <div>
-                  홈쇼핑 Live 노하우를 담아 브랜드의 성공을 함께 만들어가고
-                  있습니다.
+                  판매전략, 방송기획, 출연자 섭외, 방송제작과 마케팅까지 한
+                  번에-​
+                </div>
+                <div>
+                  라이브 홈쇼핑의 노하우를 담아, 성공적인 라이브커머스 방송을
+                  만들어갑니다.
                 </div>
               </div>
 
               <div className="mt-8">
                 <Button
                   onClick={() => doScroll("WEB")}
-                  size="large"
                   className="mr-4 button-primary-color"
                   style={{
                     borderRadius: 4,
+                    height: 50,
+                    width: 160,
+                    fontSize: 18,
                   }}
                 >
                   상담 문의하기
                 </Button>
                 <Button
-                  size="large"
                   className="mr-4 button-reference-color"
                   style={{
                     borderRadius: 4,
+                    height: 50,
+                    width: 160,
+                    fontSize: 18,
                   }}
                 >
                   <Link
@@ -181,27 +172,6 @@ export const Content1 = () => {
               </div>
             </div>
           </div>
-          {/* <div style={{ width: "50%" }} className="inline-block">
-            <div
-              className="float-left"
-              style={{ marginLeft: 180, marginBottom: 500 }}
-            >
-              <div
-                className="absolute"
-                style={{
-                  width: 350,
-                }}
-              >
-                <iframe
-                  width="338"
-                  height="600"
-                  src="https://www.youtube.com/embed/1DcKLBMandU?autoplay=1&mute=1&loop=1&controls=0"
-                  title="YouTube video player"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                ></iframe>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
     </>

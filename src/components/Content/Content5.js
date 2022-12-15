@@ -17,11 +17,11 @@ export const Content5 = () => {
                 ReactGA.event({
                   category: "MOBILE",
                   action: "main-suggestion-pdf",
-                  label: "제안서 다운로드",
+                  label: "서비스 소개 다운로드",
                 });
               }}
             >
-              <div style={{ paddingTop: 9 }}>제안서 다운로드</div>
+              <div style={{ paddingTop: 9 }}>서비스 소개 다운로드</div>
             </Button>
           </div>
         </div>
@@ -29,11 +29,11 @@ export const Content5 = () => {
 
       <div
         className="suggestion-wrap flex flex-col items-center hidden lg:flex"
-        style={{ fontSize: 32, marginTop: 120 }}
+        style={{ fontSize: 32, marginTop: 40 }}
       >
         <div className="mt-28">
           <Button
-            style={{ width: 300, height: 100 }}
+            style={{ width: 380, height: 100 }}
             className="font-bold"
             href="/mullaelive_suggestion_2211.pdf"
             target="_blank"
@@ -41,11 +41,11 @@ export const Content5 = () => {
               ReactGA.event({
                 category: "WEB",
                 action: "main-suggestion-pdf",
-                label: "제안서 다운로드",
+                label: "서비스 소개 다운로드",
               });
             }}
           >
-            <div className="pt-8 text-3xl">제안서 다운로드</div>
+            <div className="pt-8 text-3xl">서비스 소개 다운로드</div>
           </Button>
         </div>
       </div>
