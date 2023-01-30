@@ -12,7 +12,7 @@ export const Footer = () => {
           <div className="text-lg font-bold">문래라이브</div>
           <div>서울 영등포구 선유로 75 GS강서타워 3F 오픈스튜디오</div>
           <div className="mt-8">
-            <div className="font-light">mullaelive@gsretail.com</div>
+            <div className="font-light">mullaelive@gmail.com</div>
             <div className="font-light">02-2007-0202</div>
           </div>
         </div>
@@ -35,7 +35,7 @@ export const Footer = () => {
             <div className="mb-4 font-light">
               서울 영등포구 선유로 75 GS강서타워 3F 오픈스튜디오
             </div>
-            <div className="font-light">mullaelive@gsretail.com</div>
+            <div className="font-light">mullaelive@gmail.com</div>
             <div className="font-light text-2xl">02-2007-0202</div>
           </div>
         </div>
