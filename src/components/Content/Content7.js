@@ -199,7 +199,7 @@ export const Content7 = () => {
             <div className="text-center text-gray-400 py-10">
               개인 정보는 예약 확인 목적으로만 사용되며
               <br />
-              스튜디오 이용 이후 즉시 폐기됩니다.
+              스튜디오 이용 이후 즉시 폐기됩니다..
               <div className="py-10">
                 <Button
                   size="large"
