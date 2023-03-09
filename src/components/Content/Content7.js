@@ -6,7 +6,7 @@ import axios from "axios";
 
 const { TextArea } = Input;
 
-const openNotification = (placement = "bottomRight") => {
+const openNotification = (placement) => {
   notification.success({
     message: "상담예약완료",
     description:
@@ -135,7 +135,12 @@ export const Content7 = () => {
     };
     await sheet.addRow(t);
     setIsLoading(false);
-    openNotification();
+    openNotification("bottom");
+    setName("");
+    setCompany("");
+    setPhone("");
+    setEmail("");
+    setEtc("");
     await sendTeamsMessage(t);
   };
 
@@ -156,7 +161,7 @@ export const Content7 = () => {
             <DatePicker
               size="large"
               className="w-full"
-              placeholder="2022년 00월 00일"
+              placeholder="2023년 00월 00일"
               onChange={(_, dateString) => setDate(dateString)}
             />
 
@@ -225,7 +230,7 @@ export const Content7 = () => {
               <DatePicker
                 size="large"
                 className="w-full"
-                placeholder="2022년 00월 00일"
+                placeholder="2023년 00월 00일"
                 onChange={(_, dateString) => setDate(dateString)}
                 style={{
                   width: 300,
