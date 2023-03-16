@@ -191,7 +191,7 @@ export const Content3 = () => {
                 <div key={index} className="p-4">
                   <img
                     alt={index}
-                    src={require(`assets/images/believe-${item}.jpg`).default}
+                    src={require(`assets/images/believe-${item}.webp`).default}
                     style={{ width: 400 }}
                   />
                   <div className="text-left pt-2 text-xl">
@@ -208,7 +208,7 @@ export const Content3 = () => {
                 <div key={index} className="p-4">
                   <img
                     alt={index}
-                    src={require(`assets/images/produce-${item}.jpg`).default}
+                    src={require(`assets/images/produce-${item}.webp`).default}
                     style={{ width: 400 }}
                   />
                   <div className="text-left pt-2 text-xl">
@@ -341,7 +341,7 @@ export const Content3 = () => {
                       <img
                         alt={index}
                         src={
-                          require(`assets/images/believe-${item}.jpg`).default
+                          require(`assets/images/believe-${item}.webp`).default
                         }
                         style={{ width: 800 }}
                       />
@@ -367,7 +367,8 @@ export const Content3 = () => {
                         <img
                           alt={index}
                           src={
-                            require(`assets/images/produce-${item}.jpg`).default
+                            require(`assets/images/produce-${item}.webp`)
+                              .default
                           }
                           style={{ width: 800 }}
                         />
