@@ -261,7 +261,7 @@ export const Content3 = () => {
                       style={{ width: 240, height: 240 }}
                       className="mb-1"
                       src={
-                        require(`assets/images/going-${index + 1}.png`).default
+                        require(`assets/images/going-${index + 1}.webp`).default
                       }
                     />
                   </a>
@@ -423,7 +423,7 @@ export const Content3 = () => {
                         style={{ width: 350, height: 350 }}
                         className="mb-1"
                         src={
-                          require(`assets/images/going-${index + 1}.png`)
+                          require(`assets/images/going-${index + 1}.webp`)
                             .default
                         }
                       />
