@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "antd";
 import { Link } from "react-router-dom";
 import animateScrollTo from "animated-scroll-to";
-import MainBackground from "assets/images/main-background.jpg";
+import MainBackground from "assets/images/main-background.webp";
 import ReactGA from "react-ga";
 
 export const Content1 = () => {

@@ -24,7 +24,7 @@ export const Content2 = () => {
         </div>
         <div className="px-4">
           <img
-            src={require("assets/images/company-logos.png").default}
+            src={require("assets/images/company-logos.webp").default}
             alt="company-logos"
             className="w-full"
           />
@@ -47,7 +47,7 @@ export const Content2 = () => {
         </div>
         <div className="px-48" style={{ marginTop: -40, zIndex: -1 }}>
           <img
-            src={require("assets/images/company-logos.png").default}
+            src={require("assets/images/company-logos.webp").default}
             alt="company-logos"
             className="w-4/5 m-0-auto"
           />
