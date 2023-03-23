@@ -1,7 +1,7 @@
 import React from "react";
-import LiveLogo from "assets/images/refer-live-logo6.png";
-import LiveImage1 from "assets/images/live6-1.png";
-import LiveImage2 from "assets/images/live6-2.png";
+import LiveLogo from "assets/images/refer-live-logo6.webp";
+import LiveImage1 from "assets/images/live6-1.webp";
+import LiveImage2 from "assets/images/live6-2.webp";
 
 export const Live6 = () => {
   return (
