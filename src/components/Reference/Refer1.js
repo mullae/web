@@ -10,7 +10,7 @@ const getReferenceItems = () => {
   return new Promise((resolve) => {
     axios
       .get(
-        "https://mullaelive-cors.herokuapp.com/https://api.notion.com/v1/blocks/675199c6-44f6-4e67-acb0-0013414807c6/children",
+        "https://cors-anywhere.herokuapp.com/https://api.notion.com/v1/blocks/675199c6-44f6-4e67-acb0-0013414807c6/children",
         {
           headers: {
             Authorization:
