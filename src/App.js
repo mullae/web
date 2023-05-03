@@ -3,7 +3,7 @@ import { Content, Footer, Reference } from "components";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 const App = () => {
-  console.log("version 1.0.1");
+  console.log("version 1.0.2");
   return (
     <div className="App items-center justify-center">
       <Router>
