@@ -45,7 +45,7 @@ export const Content2 = () => {
             style={{ height: 1, marginTop: 18 }}
           />
         </div>
-        <div className="px-48" style={{ marginTop: -40, zIndex: -1 }}>
+        <div className="px-48" style={{ marginTop: 60, zIndex: -1 }}>
           <img
             src={require("assets/images/company-logos.webp").default}
             alt="company-logos"
